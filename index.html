@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon-16x16.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator App</title>
+
+  <link rel="stylesheet" href="/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded" rel="stylesheet" />
+
+</head>
+
+<body>
+  <div class="app">
+
+    <div class="calculator">
+
+      <div class="display">
+        <div class="content">
+          <div class="input"></div>
+          <div class="output"></div>
+        </div>
+      </div>
+
+      <div class="keys">
+
+        <!-- row 1 -->
+        <div class="key action" data-key="clear">
+          <span>AC</span>
+        </div>
+        <div class="key action" data-key="brackets">
+          <span>( )</span>
+        </div>
+        <div class="key action" data-key="%">
+          <span>%</span>
+        </div>
+        <div class="key operator" data-key="/">
+          <span>÷</span>
+        </div>
+
+        <!-- row 2 -->
+        <div class="key" data-key="7">
+          <span> 7 </span>
+        </div>
+        <div class="key" data-key="8">
+          <span> 8 </span>
+        </div>
+        <div class="key" data-key="9">
+          <span> 9 </span>
+        </div>
+        <div class="key operator" data-key="*">
+          <span> x </span>
+        </div>
+
+        <!-- row 3 -->
+        <div class="key" data-key="4">
+          <span> 4 </span>
+        </div>
+        <div class="key" data-key="5">
+          <span> 5 </span>
+        </div>
+        <div class="key" data-key="6">
+          <span> 6 </span>
+        </div>
+        <div class="key operator" data-key="-">
+          <span> - </span>
+        </div>
+
+        <!-- row 4 -->
+        <div class="key" data-key="1">
+          <span> 1 </span>
+        </div>
+        <div class="key" data-key="2">
+          <span> 2 </span>
+        </div>
+        <div class="key" data-key="3">
+          <span> 3 </span>
+        </div>
+        <div class="key operator" data-key="+">
+          <span> + </span>
+        </div>
+
+        <!-- row 5 -->
+        <div class="key action" data-key="backspace">
+          <span> &lt; </span>
+        </div>
+        <div class="key" data-key="0">
+          <span> 0 </span>
+        </div>
+        <div class="key" data-key=".">
+          <span> . </span>
+        </div>
+        <div class="key operator" data-key="=">
+          <span> = </span>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="/all.js"></script>
+</body>
+
+</html>
